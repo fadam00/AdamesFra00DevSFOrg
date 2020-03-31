@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Regional_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Example sharing rule on opportunity</description>
+        <label>Regional Sharing</label>
+        <sharedTo>
+            <role>WesternSalesTeam</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>EasternSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
